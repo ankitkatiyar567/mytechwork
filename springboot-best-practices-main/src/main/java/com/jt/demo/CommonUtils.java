@@ -7,6 +7,6 @@ public class CommonUtils {
 
     public CommonUtils() {
 
-        System.out.println("CommonUtils bean is created !");
+        System.out.println("CommonUtils bean is created       !");
     }
 }
