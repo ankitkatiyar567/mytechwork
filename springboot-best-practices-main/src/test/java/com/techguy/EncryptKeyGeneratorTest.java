@@ -11,7 +11,7 @@ public class EncryptKeyGeneratorTest {
     public void getSensitiveInfoEncryptor() {
         PooledPBEStringEncryptor encryptor = new PooledPBEStringEncryptor();
         SimpleStringPBEConfig config = new SimpleStringPBEConfig();
-        config.setPassword("javatechie");// private -key
+        config.setPassword("javatechie");// private -key  set dddd
         config.setAlgorithm("PBEWithMD5AndDES");
         config.setKeyObtentionIterations(1000);
         config.setPoolSize(1);
